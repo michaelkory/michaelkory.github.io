@@ -19,9 +19,14 @@ yarn start
 ```
 
 Open http://localhost:3000 to see your app.
+
+## Project outline and intent
+
+This project is intended to allow a user to search the "Concerts" dataset and find shows by artist or location, filtered by date, specifically so a user can find shows come soon to a nearby city. Starting with the "Alternative Rock Artists" dataset and using "create-instantsearch-app" to bootstrap my application, I added the Calendar widget, and a "refinementList" to filter by location.
+
 ## Tips and tricks
 
-I wanted to add a location filter to this app, so that I can find events close to home. The given dataset doesn't have the necessary data organized in a useful way, but you can search for the name of a city, and add clubs in that city to filter by, then search by artist. Or just start with an artist search, and find some cool clubs to filter by, and see what other artists might be playing there this week.
+The given dataset doesn't have the necessary data organized in a useful way, but you can use the search bar to search for a nearby city, add clubs in that city to the location filter, then search by artist. Or just start with an artist search, and find some cool clubs to filter by, and see what other artists might be playing there this week.
 
 ## Future enhancements to consider
 
